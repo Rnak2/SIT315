@@ -1,9 +1,8 @@
 #include <Wire.h>
 #include <Adafruit_LiquidCrystal.h>
 
-// Initialize the LCD with the I2C address (commonly 0x27 or 0x3F)
-Adafruit_LiquidCrystal lcd(0);
 
+Adafruit_LiquidCrystal lcd(0);
 const int trigPin = 9;
 const int echoPin = 10;
 long duration;
